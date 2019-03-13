@@ -5,10 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'Heidergger! Funciona!';
   visible = false;
-  decirAdios(){
-	  this.visible = true;
+  decirAdios() {
+    this.visible = true;
   }
 }
