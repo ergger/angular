@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { MenorComponent } from './menor/menor.component';
+import { MedioComponent } from './medio/medio.component';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
-  declarations: [ MenorComponent ],
-  exports: [ MenorComponent ]
+  declarations: [ MenorComponent, MedioComponent ],
+  exports: [ MenorComponent, MedioComponent ]
 })
 export class SegundoModule { }

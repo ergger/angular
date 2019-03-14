@@ -7,6 +7,7 @@ import { SegundoModule } from './segundo/segundo.module';
 
 import { AppComponent } from './app.component';
 import { MayorComponent } from './mayor/mayor.component';
+import { MedioComponent } from './segundo/medio/medio.component';
 import { MenorComponent } from './segundo/menor/menor.component';
 
 @NgModule({
@@ -21,6 +22,6 @@ import { MenorComponent } from './segundo/menor/menor.component';
     SegundoModule
   ],
   providers: [],
-  bootstrap: [AppComponent,MayorComponent,MenorComponent]
+  bootstrap: [AppComponent,MayorComponent,MedioComponent,MenorComponent]
 })
 export class AppModule { }

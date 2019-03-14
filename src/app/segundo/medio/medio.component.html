@@ -1,0 +1,14 @@
+<p>
+  <input type= "number" [(ngModel)] = "test" />
+</p>
+<p>
+    {{test}}
+</p>
+<p>
+    Evento ngModelChange: <input type="number" [ngModel]="lado" (ngModelChange)="cambiaLado($event)">
+</p>
+<p>
+    {{lado}}
+</p>
+<img [src] = "ruta" width="100" height="100" />
+<button [disabled] = "deshabilitado" >Activo {{deshabilitado}}</button>
